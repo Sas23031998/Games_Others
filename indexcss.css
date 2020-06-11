@@ -1,0 +1,42 @@
+html{
+  height: 100%;
+  background: radial-gradient(circle,#fff,#ccc);
+}
+
+ #playerName{
+   height: 200px;
+   width:300px;
+   background-color: #9DD2EA;
+   margin: 100px auto;
+   padding: 30px;
+   box-shadow: 4px 4px 0px 0px  #009de4;
+}
+
+#label{
+  font-size: 30px;
+  margin: 0px 70px 40px;
+  font-style: italic;
+  color: #2e8b57;
+  border-width: 5px;
+  border-color: black;
+  font-weight: bold;
+}
+
+#name{
+  height: 20px;
+  width:300px;
+  margin: 30px 0px;
+  color: #006994 ;
+  border-width: 5px;
+  }
+
+#submit{
+  color: red ;
+  margin: 0px 120px;
+  transition: all 0.2s;
+  border-width: 5px;
+}
+
+#submit:hover{
+  color : blue;
+}

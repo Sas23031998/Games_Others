@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Maths Game</title>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0,
+    user-scalable=yes">
+    <link rel="stylesheet" href="gamecss.css">
+    
+  </head>
+  <body>
+      <div id="welcomeMsg">
+        <p id="welcome"></p>
+      </div>
+      <div id="outerBox">
+        <div id="scoreBox">
+           Score :<span id="scoreBoxValue">0</span>
+        </div>
+        <div id="correctBox">
+            Correct Answer
+        </div>
+        <div id="wrongAnswerBox">
+            OOps!!Try Again.
+        </div>
+        <div id="question">
+
+        </div>
+        <div id="instruction">
+            <b>Choose The Correct Answer</b>
+        </div>
+        <div id="options">
+            <div id="box1" class="box"></div>
+            <div id="box2" class="box"></div>
+            <div id="box3" class="box"></div>
+            <div id="box4" class="box"></div>
+        </div>
+        <div id="start">
+          Start Game
+        </div>
+        <div id="timeCounter">
+          Time left : <span id="timeCounterValue">30</span>seconds
+        </div>
+        <div id="gameOver" class="gameOverClass">
+        <p id="gameOverMsg" class="gameOverClass">Game Over!<br><br>Your score is:0</p>
+        <button type="submit" id="back" class="gameOverClass" onclick="location.href='index.html'">Back</button>
+        </div>
+
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

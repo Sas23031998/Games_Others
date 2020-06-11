@@ -1,0 +1,194 @@
+html{
+  height: 100%;
+  background: radial-gradient(circle,#fff,#ccc);
+  background: -webkit-radial-gradient(circle,#fff,#ccc);
+  background: -o-radial-gradient(circle,#fff,#ccc);
+  background: -moz-radial-gradient(circle,#fff,#ccc);
+}
+
+#welcomeMsg{
+  width: 700px;
+  min-height: 80px;
+  background: radial-gradient(ellipse,#ffdf00,#f9a602);
+  background: -webkit-radial-gradient(ellipse,#ffdf00,#f9a602);
+  background: -o-radial-gradient(ellipse,#ffdf00,#f9a602);
+  background: -moz-radial-gradient(ellipse,#ffdf00,#f9a602);
+  color: #e34234;
+  font-size: 40px;
+  /*text-transform: lowercase;
+  text-transform: capitalize;*/
+  margin: 15px auto;
+  border-radius: 10px;
+  text-align: center;
+  border: 4px solid orange;
+  /* line-height: 45px; */
+}
+
+#outerBox{
+  height:400px;
+  width:550px;
+  background-color: #ffcccb;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px #e75480;
+  -moz-box-shadow: 4px 4px 4px 4px #e75480;
+  -webkit-box-shadow: 4px 4px 4px 4px #e75480;
+  position: relative;
+}
+
+#scoreBox{
+  background-color:  #A9A9A9;
+  color: 	white ;
+  padding: 11px;
+  position: absolute;
+  left: 500px;
+
+}
+
+#correctBox{
+  background-color: #A4DE02;
+  color: #43464b;
+  position: absolute;
+  left: 300px;
+  padding: 10px;
+  display: none;
+}
+#wrongAnswerBox{
+  background-color: #d21f3c;
+  color: #43464b ;
+  position: absolute;
+  left: 50px;
+  padding: 10px;
+  display: none;
+}
+
+#question{
+  height: 150px;
+  width: 460px;
+  background-color: #4682b4;
+  margin: 50px auto 10px auto;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #000080;
+  -webkit-box-shadow: 4px 4px 4px #000080;
+  -moz-box-shadow: 4px 4px 4px #000080;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+  font-family: cursive;
+}
+
+#instruction{
+  background-color:  #B481D9;
+  width: 440px;
+  height: 30px;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 28px;
+}
+
+#options{
+  width: 440px;
+  height: 100px;
+  margin: 10px auto;
+}
+
+.box{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  float: left;
+  border-radius: 10px;
+  margin-right: 39.5px;
+  text-align: center;
+  line-height: 80px;
+  position:relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 4px #f2f3f4;
+  -moz-box-shadow: 0px 4px #f2f3f4;
+  -webkit-box-shadow: 0px 4px #f2f3f4;
+  font-size: 40px;
+}
+
+.box:active, #start:active{
+  background-color: #9C89F6;
+  color:white;
+  box-shadow: 0px 4px #6b54d3;
+  -moz-box-shadow: 0px 4px #6b54d3;
+  -webkit-box-shadow: 0px 4px #6b54d3;
+  top:3px;
+}
+
+#box4{
+  margin-right: 0;
+}
+
+#start{
+  width: 100px;
+  height: 30px;
+  background-color:#FFCC00 ;
+  color: #4b5320;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 25px;
+  position: relative;
+  box-shadow: 0px 4px #7b9095;
+  -webkit-box-shadow: 0px 4px #7b9095;
+  -moz-box-shadow: 0px 4px #7b9095;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  left:200px;
+}
+
+#timeCounter{
+  position: absolute;
+  padding: 10px;
+  top: 395px;
+  left: 420px;
+  background-color: #A4DE02 ;
+  box-shadow: 0px 4px #4b5320;
+  -webkit-box-shadow: 0px 4px #4b5320;
+  -moz-box-shadow: 0px 4px #4b5320;
+  border-radius:10px;
+}
+
+.gameOverClass{
+  z-index: 2px;
+display: none;
+}
+#gameOver{
+  height: 280px;
+  width: 500px;
+  background: linear-gradient(#F3CA6B, #F3706C);
+  background: -webkit-linear-gradient(#F3CA6B, #F3706C);
+  background: -o-linear-gradient(#F3CA6B, #F3706C);
+  background: -moz-linear-gradient(#F3CA6B, #F3706C);
+  position: absolute;
+  top :110px;
+  left:45px;
+
+
+}
+
+#gameOverMsg{
+  color: grey;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#back{
+  background-color: #F3CA6B;
+  color: #e34234;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #e34234;
+  margin-top: 10px;
+  margin-left: 215px;
+}
