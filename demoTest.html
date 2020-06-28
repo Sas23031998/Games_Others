@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+	
+	.navbar{
+		background-color: grey;
+		overflow: hidden;
+		position: relative;
+		
+	}
+
+	.navbar a{
+		height:100%;
+		background-color: DodgerBlue;
+		font-size: 26px;
+		color:white;
+		padding:10px 10px;
+	}
+
+	.navbar  a:hover{
+ 			background-color: peru;
+ 		}
+
+	.text{
+		font-size: 24px;
+		color:Black;
+	}
+
+	
+	@media screen and (min-width: 992px) {
+ 		.navbar{
+ 			margin: 0;
+  			padding: 0;
+  			width: 200px;
+  			background-color: #f1f1f1;
+  			position: fixed;
+  			height: 100%;
+  			overflow: auto;
+ 		}
+
+ 		.navbar  a{
+ 			width: 100%;
+ 			height: auto;
+ 			float: left;
+ 			background-color: Tomato;
+			font-size: 26px;
+			color:white;
+			padding:10px 10px;
+ 		}
+
+ 		.navbar  a:hover{
+ 			background-color: gold;
+ 		}
+
+ 		.text{
+ 			margin-left: 250px;
+ 			font-size: 24px;
+ 			color:MediumSeaGreen;
+ 		}
+	}
+
+	/* On screens that are 600px or less, set the background color to olive */
+	@media screen and (min-width: 600px) {
+	  
+	}
+</style>
+<body>
+	<div class="navbar">
+		<a href="#">Home</a>
+		<a href="#">Contact</a>
+		<a href="#">About</a>
+	</div>	
+	<p class="text">
+		Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript and VBScript.Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets
+	</p>
+</body>
+</html>
